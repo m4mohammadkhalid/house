@@ -84,9 +84,11 @@ const header = () => {
                             <button type="button" className="navbar-toggle" data-toggle="collapse" data-target="#navbar-menu">
                                 <i className="fa fa-bars" />
                             </button>
-                            <a className="sina-brand" href="home-01.html">
+                            <Link href="/">
+                            <a className="sina-brand">
                                 <img src="images/logo.jpg" alt="Sparrow" className="logo" />
                             </a>
+                            </Link>
                         </div>{/* .sina-nav-header */}
                         <div className="main-search-box search-box">
                             <form className="search form-inline-three">
