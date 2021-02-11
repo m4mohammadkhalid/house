@@ -2,7 +2,6 @@ import React from 'react'
 
 const addproperty = () => {
     return (
-
         <div className="wrapper">
   <div id="page" className="site-page">
     <main id="main" className="site-main">
